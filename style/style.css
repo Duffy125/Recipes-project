@@ -1,13 +1,12 @@
 /* styles.css */
-
+*{
+border: 2px solid red;
+}
 body {
   background-color: rgb(141, 150, 144);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-    width: 200px;
     border: 35px solid rgb(29, 32, 32);
-    padding: 325px;
-    margin: 100px;
 }
 h1,
 h2,
@@ -18,9 +17,11 @@ h5 {
 }
 
 img {
-  max-width:300%;
+  width:600px;
   height: auto;
+
   align-items: center;
+border:3px solid black;
 }
 ul,
 ol {
