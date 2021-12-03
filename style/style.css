@@ -1,6 +1,7 @@
 /* styles.css */
 *{
 border: 2px solid red;
+box-sizing: border-box;
 }
 body {
   background-color: rgb(141, 150, 144);
@@ -16,12 +17,11 @@ h5 {
   text-align: center;
 }
 
-img {
-  width:600px;
+img, .pic-dz{
+  width: 300px;
   height: auto;
+  padding: 10px;
 
-  align-items: center;
-border:3px solid black;
 }
 ul,
 ol {
