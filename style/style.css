@@ -12,8 +12,8 @@ h3,
 h4,
 h5 {
   text-align: center;
-  padding: 10px;
-  margin: 40px;
+  padding: 2px;
+  margin: center;
   border: 2px solid rgb(27, 27, 27);
 }
 
@@ -35,4 +35,12 @@ ol {
   text-decoration: rgb(53, 24, 92);
   border: 5px solid rgb(24, 24, 26);
   margin-top:10px;
+}
+a:link, a:visited {
+  background-color: #251d1c9f;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
 }
